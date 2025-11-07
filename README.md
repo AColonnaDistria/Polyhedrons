@@ -1,6 +1,6 @@
 This project is a simple C++ application using the SFML (Simple and Fast Multimedia Library) for graphics. It demonstrates the wireframe projection and rotation of various 3D shapes onto a 2D screen.
 
-✨ Features
+Features
 
     Multiple 3D Shapes: Renders the wireframe of several standard 3D shapes and surfaces:
 
@@ -14,7 +14,7 @@ This project is a simple C++ application using the SFML (Simple and Fast Multime
 
     Simple Projection: Implements a custom 3D-to-2D projection function (MainWindow::project) that includes rotation logic.
 
-🚀 How to Run
+How to Run
 
 Prerequisites
 
