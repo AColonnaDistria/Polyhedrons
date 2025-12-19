@@ -1,14 +1,26 @@
-A visualizer of polyhedrons (and of a sphere) written in C++ with SFML. 
-TODO: Add a torus option
+## Polyhedron 3d viewer
+
+This project is a simple C++ application using the SFML for graphics. It demonstrates the wireframe projection and rotation of various 3D shapes onto a 2D screen.
+
+## Prerequisites
+
+You need a C++ compiler and the SFML library installed and configured for your project environment
+
+## Compilation
+
+Run
+
+```bash
+g++ main.cpp mainWindow.cpp vector3d.cpp vector2d.cpp -o polyhedron -lsfml-graphics -lsfml-window -lsfml-system
+```
+
+## Usage
 
 To compute the projections, I just used sympy in order to compute linear transformations and then put it in my code rather than relying an external library.
 
 In order to navigate between polyhedrons, use the left and right keys of the keyboard.
 
-Compilation:
-```bash
-g++ main.cpp mainWindow.cpp vector3d.cpp vector2d.cpp -o polyhedron -lsfml-graphics -lsfml-window -lsfml-system
-```
+## Illustrations
 
 Tetrahedron:
 ![alt text](readme-images/tetrahedron.png "Tetrahedron")
