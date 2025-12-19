@@ -28,6 +28,11 @@ void MainWindow::applyChoice() {
         case SelectionChoice::SPHERE:
             sphere();
             break;
+            /*
+        case SelectionChoice::TORUS:
+            torus();
+            break;
+            */
         default:
             // defaults to cube
             cube();
@@ -91,7 +96,6 @@ void MainWindow::sphere() {
     this->edges.push_back(std::make_tuple(k,k3));
 }
 
-/*
 void MainWindow::torus() {
     // Cube centered on 0.0
     this->window->setTitle("Torus");
@@ -134,7 +138,6 @@ void MainWindow::torus() {
         this->edges.push_back(std::make_tuple(k,k2));
     }
 }
-*/
 
 void MainWindow::cube() {
     // Cube centered on 0.0

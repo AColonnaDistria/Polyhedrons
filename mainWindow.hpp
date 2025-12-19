@@ -14,6 +14,7 @@ enum class SelectionChoice {
     ICOSAHEDRON = 3,
     DODECAHEDRON = 4,
     SPHERE = 5,
+    TORUS = 6
 };
 
 class MainWindow {
