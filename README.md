@@ -20,6 +20,10 @@ To compute the projections, I just used sympy in order to compute linear transfo
 
 In order to navigate between polyhedrons, use the left and right keys of the keyboard.
 
+## Video
+
+[![Watch the video](https://img.youtube.com/vi/OPk1zP_mg0c/maxresdefault.jpg)](https://youtu.be/OPk1zP_mg0c)
+
 ## Illustrations
 
 Tetrahedron:
